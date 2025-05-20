@@ -1,28 +1,29 @@
-# Image-to-Audio Converter for Accessibility – Machine Learning Project
+# 🧠 Image-to-Audio Converter for Accessibility | Machine Learning Project
 
 ## Overview
-This project presents an image-to-audio conversion tool that transforms printed text into audible speech using Optical Character Recognition (OCR) and Text-to-Speech (TTS) technologies. It offers an inclusive solution for visually impaired individuals and enhances content accessibility.
+This project implements a machine learning-powered system that reads printed text from an image and converts it into audible speech. Designed with accessibility in mind, this tool empowers users—especially the visually impaired or audiobook enthusiasts—to access printed content through voice.
 
-## Objective
-To develop an intuitive application that extracts text from images and reads it aloud, thereby providing an accessible and affordable alternative to traditional audiobooks and assistive reading technologies.
+## Problem Statement
+Not all books come with an audio version. Visually impaired readers often lack access to printed content. This system bridges that gap by digitizing text from physical media and vocalizing it using a user-friendly interface.
 
-## Features
-- Upload printed images and extract textual content.
-- Convert extracted text into clear, natural audio using TTS.
-- Interactive web interface built with Streamlit.
+## Key Features
+- 📸 **Image Input**: Upload scanned or photographed text images.
+- 🔍 **OCR Engine**: Extracts text using Tesseract OCR.
+- 🔊 **Text-to-Speech**: Converts extracted text into audio using gTTS.
+- 🖥 **User Interface**: Simple Streamlit-based GUI for instant interaction.
 
-## Technologies
-- Python, Streamlit
-- OpenCV
-- Pytesseract
-- Google Text-to-Speech (gTTS)
+## Tech Stack
+- Python  
+- OpenCV, Pytesseract  
+- Google Text-to-Speech (gTTS)  
+- Streamlit for GUI
 
-## Dataset Summary
-The OCR model was trained using 60,160 samples derived from 94 characters in 8 fonts and 4 formatting styles.
+## Dataset
+The OCR engine was fine-tuned using 60,000+ samples across 94 characters, 8 fonts, and 4 styles.
 
-## Conclusion
-The project demonstrates the effective use of machine learning to bridge accessibility gaps. With minimal resource requirements and high utility, this tool exemplifies practical AI-driven innovation.
+## Outcome
+The tool successfully processes image inputs to produce readable and audible outputs with high accuracy. It promotes inclusivity and showcases the real-world application of OCR and TTS models.
 
 ## References
-- [Tesseract OCR Documentation](https://tesseract-ocr.github.io/docs/tesseracticdar2007.pdf)
-- [OCR using KNN - Towards Data Science](https://towardsdatascience.com/optical-character-recognition-with-knn-classifier-10fd220ed797)
+- [Tesseract OCR Documentation](https://tesseract-ocr.github.io/docs/tesseracticdar2007.pdf)  
+- [OCR Using KNN - TDS Article](https://towardsdatascience.com/optical-character-recognition-with-knn-classifier-10fd220ed797)
